@@ -1,1 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@700&family=Dancing+Script&family=Noto+Serif&family=Sarabun:ital,wght@0,100;0,300;1,100;1,500&family=Secular+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sarabun', sans-serif; 
+}
 
