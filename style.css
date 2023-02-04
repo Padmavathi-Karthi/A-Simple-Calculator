@@ -11,3 +11,15 @@ body {
     height: 100vh;
     background: linear-gradient(180deg, rgb(59, 59, 214), rgb(42, 144, 179), rgb(167, 84, 167));
 }
+
+.calculator {
+    width: 400px;
+    background-color: #15173c;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 4px 4px black, -4px -4px black;
+}
