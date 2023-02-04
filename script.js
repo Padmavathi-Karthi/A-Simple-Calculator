@@ -29,3 +29,38 @@ button_input.forEach((button_class) => {
 });
 
 
+//  Solve the user's input when clicked on equal sign
+equal.addEventListener('click', () => {
+    equal_pressed = 1;
+    let inp_val = input.value;
+    try {
+        // evaluate user's input
+        let solution = eval(inp_val);
+
+        // True for whole numbers
+        // False for decimals
+
+        if (Number.isInteger(solution)) {
+            input.value = solution;
+        }
+        else {
+            input.value = solution.toFixed(2);
+        }
+    } catch (err) {
+        // If user has entered invalid input 
+        alert("Invalid Input");
+    }
+});
+
+//  To clear whole input
+clear.addEventListener("click", () => {
+    input.value = "";
+});
+
+// To delete single digit - BackSpace
+erase.addEventListener('click', () => {
+    input.value = input.value.substr(0, input.value.length - 1);
+});
+
+
+
