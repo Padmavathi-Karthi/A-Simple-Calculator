@@ -10,6 +10,7 @@
 body {
     height: 100vh;
     background: linear-gradient(to bottom, rgb(59, 59, 214), rgb(42, 144, 179), rgb(167, 84, 167));
+    width: 100vw;
 }
 
 .calculator {
@@ -72,3 +73,4 @@ input[type="button"]#equal {
 input[type="button"][value="0"] {
     grid-column: span 2;
 }
+
