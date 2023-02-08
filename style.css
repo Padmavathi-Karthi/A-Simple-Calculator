@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(180deg, rgb(59, 59, 214), rgb(42, 144, 179), rgb(167, 84, 167));
+    background: linear-gradient(to bottom, rgb(59, 59, 214), rgb(42, 144, 179), rgb(167, 84, 167));
 }
 
 .calculator {
